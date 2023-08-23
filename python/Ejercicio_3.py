@@ -14,7 +14,7 @@ productos=[
         "id_cat": 1
     },
     {
-        "id": 123,
+        "id": 111,
         "nombre": "Jabon ",
         "precio": 10.500,
         "id_cat": 2
@@ -43,4 +43,4 @@ for produ in productos:
             })
 
 for resul in resultado:
-    print(f"Producto: {resul['nombre_producto']} - Categoría: {resul['nombre_categoria']}")
+    print(f"ID: {resul['id']} - Producto: {resul['nombre_producto']} - Categoría: {resul['nombre_categoria']}")
